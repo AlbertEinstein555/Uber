@@ -524,6 +524,7 @@
   height: 32px;
   background-color: #070716;
   border-radius: 100%;
+  text-decoration: none;
 }
 * .footer_social_item i {
   color: #fff;
@@ -768,6 +769,7 @@
 @media (max-width: 575px) {
   * nav {
     height: 30px;
+    width: 96.5%;
   }
   * nav .menu_item {
     width: 100%;
@@ -776,6 +778,7 @@
   }
   * nav .menu_link {
     display: block;
+    font-size: 16px;
   }
   * nav .hamburger_active span:nth-child(1) {
     -webkit-transform: translateY(5px) rotate(-45deg);
@@ -859,10 +862,10 @@
     line-height: 16px;
   }
   * .uber {
-    padding: 26px 0 31px 0;
     display: block;
     width: 322px;
     height: 393px;
+    padding-top: 27px;
   }
   * .uber .title {
     display: none;
@@ -882,7 +885,6 @@
     display: block;
     width: 279px;
     margin-top: 23px;
-    padding-bottom: 31px;
   }
   * .tagline_subtitle1 {
     text-align: center;
@@ -936,9 +938,9 @@
     margin-top: 10px;
   }
   * .world {
-    padding: 0 0 29.5px 0;
+    padding: 26px 0 29.5px 0;
     background: url("../img/bg_mobile.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     min-height: 360px;
