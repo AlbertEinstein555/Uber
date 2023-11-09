@@ -1,0 +1,16 @@
+.title {
+	color: #0d0d0d;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	&_left {
+		color: #FFF;
+		font-size: 36px;
+		text-align: left;
+	}
+	&_catalog {
+		font-weight: 400;
+	}
+}
